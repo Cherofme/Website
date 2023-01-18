@@ -6,7 +6,7 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret_Dima'
 
 def get_db_connection():
-    conn = sqlite3.connect('C:\\Users\\Andrew\\Python\\project-gymsite\\courses.sqlite3')
+    conn = sqlite3.connect('C:\\Users\\denis\\OneDrive\\Документи\\GitHub\\Website\\courses.sqlite3')
     conn.row_factory = sqlite3.Row
     return conn
 
